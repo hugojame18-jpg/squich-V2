@@ -18,14 +18,14 @@ const CATEGORIES = {
 const PAYMENT_PARTNER = '';
 
 /* Lien de paiement à 19,99 € : 2 kits Slime Mart, pack de 10 squishies, calendrier de l'Avent. */
-const LINK_1999 = 'https://t.trklinkx.com/click?pid=4784&offer_id=13888';
+const LINK_1999 = 'https://t.trklinkx.com/click?pid=4784&offer_id=13888&sub3=chessea';
 /* Photo de l'article envoyée au partenaire de paiement : nom du paramètre ajouté au lien
    (avec l'adresse complète de la photo). Laisser vide pour ne rien envoyer. */
 const IMAGE_PARAM = 'sub7';
 /* Nom du produit envoyé au partenaire de paiement. */
 const TITLE_PARAM = 'sub6';
 const SITE_URL = 'https://squich.site/';
-const SLIME_URL = 'https://t.trklinkx.com/click?pid=4784&offer_id=13179&sub3=squish';
+const SLIME_URL = 'https://t.trklinkx.com/click?pid=4784&offer_id=13179&sub3=chessea';
 /* Un seul kit par commande, à 9,99 €. (Remettre 2 + la ligne 19,99 € quand le lien 19,99 € marchera.) */
 const SLIME_MAX = 1;
 const SLIME_ORDERS = [
@@ -195,7 +195,7 @@ const MASCOTS = [
 const MAX_ITEMS = 1;
 const SQUISHY_PRICE = 9.99;
 const PACKS = [
-  { min: 1, price: 9.99, url: 'https://t.trklinkx.com/click?pid=4784&offer_id=13179&sub3=squish' }
+  { min: 1, price: 9.99, url: 'https://t.trklinkx.com/click?pid=4784&offer_id=13179&sub3=chessea' }
 ];
 /* Palier le plus cher dont le prix ne dépasse pas le sous-total : jamais plus que prix × quantité. */
 function packFor(n) {
