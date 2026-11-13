@@ -24,7 +24,7 @@ const LINK_1999 = 'https://t.trklinkx.com/click?pid=4784&offer_id=13888&sub3=che
 const IMAGE_PARAM = 'sub7';
 /* Nom du produit envoyé au partenaire de paiement. */
 const TITLE_PARAM = 'sub6';
-const SITE_URL = 'https://squich.site/';
+const SITE_URL = 'https://slimy.site/';
 const SLIME_URL = 'https://t.trklinkx.com/click?pid=4784&offer_id=13179&sub3=chessea';
 /* Un seul kit par commande, à 9,99 €. (Remettre 2 + la ligne 19,99 € quand le lien 19,99 € marchera.) */
 const SLIME_MAX = 1;
